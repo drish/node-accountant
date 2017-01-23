@@ -1,0 +1,36 @@
+{
+  "name": "node-accountant",
+  "version": "0.0.1",
+  "description": "A dead simple to use metrics tracker for node.js http services",
+  "main": "./lib/",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drish/node-accountant.git"
+  },
+  "keywords": [
+    "statsd",
+    "metrics",
+    "middleware",
+    "response",
+    "time",
+    "tracker"
+  ],
+  "author": "Carlos Derich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drish/node-accountant/issues"
+  },
+  "homepage": "https://github.com/drish/node-accountant#readme",
+  "dependencies": {
+    "node-statsd": "0.1.1",
+    "on-headers": "1.0.1"
+  },
+  "devDependencies": {
+    "express": "4.14.0",
+    "mocha": "3.2.0",
+    "supertest": "2.0.1"
+  }
+}
