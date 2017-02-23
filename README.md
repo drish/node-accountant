@@ -5,7 +5,7 @@
 A dead simple to use metrics tracker for node.js http services, it optionally sends data to statsD, or simply prints on stdout.
 
 ```
-npm install accountant
+npm install node-accountant
 ```
 
 The goal of this project is to be a simple to use reponse time metrics tracker for http services.
